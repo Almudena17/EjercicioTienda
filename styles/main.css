@@ -1,0 +1,163 @@
+.header{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+.nav{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.nav__a, .nav__a_b, .nav__a_red{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav__a_red{
+    color: red;
+}
+.nav__a_b{
+    font-weight: bold;
+}
+.title{
+    width: 55%;
+    align-self: flex-start;
+    margin-left: 350px;
+}
+.title1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.title2{
+    font-size: small;
+    color: grey;
+    margin-top: 15px;
+}
+.header__form{
+    width: 25%;
+    margin-right: 4%;
+    
+}
+.header__form_first{
+    display: flex;
+    justify-content: flex-end;
+}
+.form__text{
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+::placeholder{
+font-family: "Font Awesome 5 Free"; 
+font-weight: 900;
+}
+.icon-placeholder{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form__icon{
+    margin-left: 3%;
+    display: flex;
+}
+.main__prendas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 8px;
+    margin-left: 100px;
+}
+.main__prendas_im{
+    width: 100%;
+    max-width: 400px;
+    padding-top: 15px;
+    margin-top: 100px;
+}
+.main__prendas h2, .main__prendas p{
+    text-align: center;
+}
+.main__prendas p{
+    font-weight: bold;
+}
+.main__bottom{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    border-style: solid;
+    border-top-width: 4px;
+    border-top-color: grey;
+    border-bottom-width: 4px;
+    border-bottom-color: grey;
+    text-align: center;
+}
+.main__bottom_big{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.main__bottom_s{
+    padding: 30px;
+    font-size: 15px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+.footer__contact{
+    text-align: center;  
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: grey;
+    padding: 30px;
+}
+.contact__text{
+    padding: 15px;   
+}
+.contact__text p{
+    display: inline;
+}
+.contact__text_a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer__list ul{
+    padding: 30px;
+}
+.footer__list li{
+    margin-top: 5px;
+}
+.footer__list_first{
+    font-weight: bold;
+    margin-bottom: 10px;  
+}
+.footer__footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    border-style: solid;
+    border-top-width: 4px;
+    border-color: grey;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer__footer_ti{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer__footer_price{
+    font-weight: bold;
+}
